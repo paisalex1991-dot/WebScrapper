@@ -12,7 +12,7 @@ import time
 
 ## text added for git testing
 
-
+### !!!!!!!!!!!!!!!!
 # Global variable for the results box
 result_box = None
 
