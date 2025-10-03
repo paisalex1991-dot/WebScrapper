@@ -65,11 +65,10 @@ def scrape_products_selenium():
             for item in product_items:
                 # TODO: replace the following class names with actual ones from the site
                 certification_number = item.find_element(By.CLASS_NAME, "cert-number").text
-                manufacturer = item.find_element(By.CLASS_NAME, "manufacturer").text
                 model_number = item.find_element(By.CLASS_NAME, "model-number").text
                 technology = item.find_element(By.CLASS_NAME, "technology").text
-                certification_period = item.find_element(By.CLASS_NAME, "cert-period").text
-                scop = item.find_element(By.CLASS_NAME, "scop").text
+                certification_period = item.find_element(By.CLASS_NAME, "cert-perior").text
+                ##scop = item.find_element(By.CLASS_NAME, "scop").text
 
                 all_products.append({
                     "Certification Number": certification_number,
