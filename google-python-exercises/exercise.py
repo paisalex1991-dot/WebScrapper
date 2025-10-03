@@ -12,7 +12,7 @@ import time
 
 ## text added for git testing
 
-## new modif
+
 # Global variable for the results box
 result_box = None
 
